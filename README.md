@@ -1,1 +1,5 @@
 # fancode
+
+```sh
+npm install
+```
