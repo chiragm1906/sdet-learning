@@ -29,7 +29,8 @@ const maxLng = 100.0;
 
 describe('Fancode Scenarios', () => {
   it('All the users of City `FanCode` should have more than half of their todos task completed.', async () => 
-    const user_response = await request('https://jsonplaceholder.typicode.com')
+   {
+     const user_response = await request('https://jsonplaceholder.typicode.com')
       .get('/users')
       .expect(200)
       .expect('Content-Type', /json/);
